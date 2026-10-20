@@ -1,0 +1,10 @@
+# Dependências de desenvolvimento, usadas apenas para rodar a suíte em tests/.
+# Não fazem parte do runtime da aplicação (ver docs/contrato-api.md, seção 0 e 7):
+# core/ e export/ continuam só com a biblioteca padrão; requirements.txt
+# (raiz do projeto) continua limitado a fastapi, uvicorn e python-multipart.
+#
+# Uso:
+#   pip install -r requirements.txt -r tests/requirements-dev.txt
+#   python -m pytest tests/
+pytest>=8.0
+httpx>=0.27

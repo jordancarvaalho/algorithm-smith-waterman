@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node (código-fonte do front-end em frontend/)
+node_modules/
+
+# Atenção: web/ NÃO é ignorado de propósito.
+# É a saída do build do front-end e precisa estar versionada para que
+# run.bat / run.sh sirvam a interface usando apenas Python.
+
+# Sistema operacional
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Configuracao local do Claude Code (nao faz parte do trabalho)
+.claude/
